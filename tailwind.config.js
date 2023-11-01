@@ -6,6 +6,9 @@ export default {
       fontFamily: {
         // ! 1-1
         HankenGrotesk: ['Hanken Grotesk', 'sans-serif'],
+        // ! 1-2
+        Fraunces: ['Fraunces', 'serif'],
+        Montserrat: ['Montserrat', 'sans-serif'],
       },
       colors: {
         // ! 1-1
@@ -25,6 +28,13 @@ export default {
         // Grad II
         VioletBlue: "hsla(256, 72%, 46%, 1)",
         PersianBlue: "hsla(241, 72%, 46%, 0)",
+        // ! 1-2
+        // Primary
+        DarkCyan: "hsl(158, 36%, 37%)",
+        Cream: "hsl(30, 38%, 92%)",
+        // Neutral
+        VeryDarkBlue: "hsl(212, 21%, 14%)",
+        DarkGrayishBlue: "hsl(228, 12%, 48%)",
       },
     },
   },
