@@ -56,7 +56,7 @@ const FrontEndMentor = () => {
             FrontEndMentor Designs
           </div>
         </header>
-        <section className="py-4 px-6 flex flex-col md:flex-row gap-6 md:gap-12">
+        <section className="py-4 px-6 flex flex-col md:flex-row gap-6 md:gap-12 justify-center items-center">
           <Cards />
         </section>
       </div>
