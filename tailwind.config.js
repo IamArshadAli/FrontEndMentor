@@ -5,10 +5,12 @@ export default {
     extend: {
       fontFamily: {
         // ! 1-1
-        HankenGrotesk: ['Hanken Grotesk', 'sans-serif'],
+        HankenGrotesk: ["Hanken Grotesk", "sans-serif"],
         // ! 1-2
-        Fraunces: ['Fraunces', 'serif'],
-        Montserrat: ['Montserrat', 'sans-serif'],
+        Fraunces: ["Fraunces", "serif"],
+        Montserrat: ["Montserrat", "sans-serif"],
+        // ! 1-3
+        Outfit: ["Outfit", "sans-serif"],
       },
       colors: {
         // ! 1-1
@@ -35,8 +37,16 @@ export default {
         // Neutral
         VeryDarkBlue: "hsl(212, 21%, 14%)",
         DarkGrayishBlue: "hsl(228, 12%, 48%)",
+        // ! 1-3
+        // Primary
+        SoftBlue: "hsl(215, 51%, 70%)",
+        Cyan: "hsl(178, 100%, 50%)",
+        // Neutral
+        VeryDarkBlueMainBG: "hsl(217, 54%, 11%)",
+        VeryDarkBlueCardBG: "hsl(216, 50%, 16%)",
+        VeryDarkBlueLine: "hsl(215, 32%, 27%)",
       },
     },
   },
-  plugins: ['prettier-plugin-tailwindcss'],
+  plugins: ["prettier-plugin-tailwindcss"],
 };
