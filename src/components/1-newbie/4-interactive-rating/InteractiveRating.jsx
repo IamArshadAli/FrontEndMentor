@@ -32,15 +32,15 @@ const InteractiveRating = () => {
         <form onSubmit={onSubmit}>
           <div className="flex justify-between my-4">
             {RateList.map((rate, index) => (
-              <div
+              <button type="button"
                 key={index}
-                className={`px-4 py-2 bg-VeryDarkBlue14 hover:bg-LightGrey text-LightGrey hover:text-White w-fit rounded-full cursor-pointer ${
-                  rating === rate && "bg-Orange text-white hover:bg-Orange"
+                className={`px-4 py-2 bg-VeryDarkBlue14 hover:bg-LightGrey text-LightGrey hover:text-White rounded-full ${
+                  rating === rate && "bg-Orange hover:bg-Orange text-white"
                 }`}
                 onClick={() => setRating(rate)}
               >
                 {rate}
-              </div>
+              </button>
             ))}
           </div>
           <button
@@ -60,8 +60,8 @@ const InteractiveRating = () => {
         <div className="flex justify-center">
           <img src={thankYouIllustration} alt="Thank You Illustration" />
         </div>
-        <div className="flex justify-center">
-          <div className="text-sm px-2 py-1 text-Orange bg-VeryDarkBlue14 rounded-full my-4 w-fit">
+        <div className="flex justify-center items-center">
+          <div className="text-sm px-4 py-1 text-Orange bg-VeryDarkBlue14 rounded-full my-4 w-fit">
             You selected {userRating} out of 5
           </div>
         </div>
