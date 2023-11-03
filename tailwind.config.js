@@ -11,6 +11,8 @@ export default {
         Montserrat: ["Montserrat", "sans-serif"],
         // ! 1-3
         Outfit: ["Outfit", "sans-serif"],
+        // ! 1-4
+        Overpass: ["Overpass", "sans-serif"],
       },
       colors: {
         // ! 1-1
@@ -45,6 +47,14 @@ export default {
         VeryDarkBlueMainBG: "hsl(217, 54%, 11%)",
         VeryDarkBlueCardBG: "hsl(216, 50%, 16%)",
         VeryDarkBlueLine: "hsl(215, 32%, 27%)",
+        // ! 1-4
+        // Primary
+        Orange: "hsl(25, 97%, 53%)",
+        // Neutral
+        LightGrey: "hsl(217, 12%, 63%)",
+        MediumGrey: "hsl(216, 12%, 54%)",
+        DarkBlue: "hsl(213, 19%, 18%)",
+        VeryDarkBlue14: "hsl(216, 12%, 8%)",
       },
     },
   },
