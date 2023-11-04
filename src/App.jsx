@@ -1,9 +1,13 @@
+import { ROUTES } from "./utils/app/constants";
 import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
 import FrontEndMentor from "./components/app/FrontEndMentor";
-import ResultSummary from "./components/1-newbie/1-results-summary/ResultSummary";
-import ProductCard from "./components/1-newbie/2-product-card/ProductCard";
-import NFTCard from "./components/1-newbie/3-nft-card/NFTCard";
-import InteractiveRating from "./components/1-newbie/4-interactive-rating/InteractiveRating";
+import {
+  ResultSummary,
+  ProductCard,
+  NFTCard,
+  InteractiveRating,
+  StatsCard,
+} from "./components/1-newbie";
 
 function App() {
   return (
@@ -19,10 +23,17 @@ function App() {
               </>
             }
           >
-            <Route path="result-summary" element={<ResultSummary />} />
-            <Route path="product-card" element={<ProductCard />} />
-            <Route path="nft-card" element={<NFTCard />} />
-            <Route path="interactive-rating" element={<InteractiveRating />} />
+            <Route
+              path={ROUTES.newbie.resultSummary}
+              element={<ResultSummary />}
+            />
+            <Route path={ROUTES.newbie.productCard} element={<ProductCard />} />
+            <Route path={ROUTES.newbie.nftCard} element={<NFTCard />} />
+            <Route
+              path={ROUTES.newbie.interactiveRating}
+              element={<InteractiveRating />}
+            />
+            <Route path={ROUTES.newbie.statsCard} element={<StatsCard />} />
           </Route>
         </Routes>
       </BrowserRouter>
