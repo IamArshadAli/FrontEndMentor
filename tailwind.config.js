@@ -13,6 +13,9 @@ export default {
         Outfit: ["Outfit", "sans-serif"],
         // ! 1-4
         Overpass: ["Overpass", "sans-serif"],
+        // ! 1-5
+        Inter: ["Inter", "sans-serif"],
+        LexendDeca: ["LexendDeca", "sans-serif"],
       },
       colors: {
         // ! 1-1
@@ -55,6 +58,14 @@ export default {
         MediumGrey: "hsl(216, 12%, 54%)",
         DarkBlue: "hsl(213, 19%, 18%)",
         VeryDarkBlue14: "hsl(216, 12%, 8%)",
+        // ! 1-5
+        // Primary
+        VeryDarkBlueMainBg15: "hsl(233, 47%, 7%)",
+        DarkDesaturatedBlueCardBg: "hsl(244, 38%, 16%)",
+        SoftVioletAccent: "hsl(277, 64%, 61%)",
+        // Neutral
+        SlightlyTransparentWhiteMainParagraph: "hsla(0, 0%, 100%, 0.75)",
+        SlightlyTransparentWhiteStatHeadings: "hsla(0, 0%, 100%, 0.6)",
       },
     },
   },
