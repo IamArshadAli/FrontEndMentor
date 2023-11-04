@@ -49,14 +49,14 @@ const Cards = () => {
 
 const FrontEndMentor = () => {
   return (
-    <main className="w-screen min-h-screen bg-PaleBlue">
-      <div className="container max-w-7xl mx-auto">
+    <main className="max-w-screen bg-PaleBlue pb-10">
+      <div className="container mx-auto">
         <header className="text-center">
           <div className="text-3xl text-DarkGrayishBlue font-bold tracking-wide font-Fraunces py-4">
             FrontEndMentor Designs
           </div>
         </header>
-        <section className="py-4 px-6 flex flex-col md:flex-row gap-6 md:gap-12 justify-center items-center">
+        <section className="py-4 px-6 flex flex-col md:flex-row flex-wrap gap-6 md:gap-12 justify-center items-center">
           <Cards />
         </section>
       </div>
