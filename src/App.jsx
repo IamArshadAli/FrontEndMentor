@@ -7,6 +7,7 @@ import {
   NFTCard,
   InteractiveRating,
   StatsCard,
+  OrderSummary
 } from "./components/1-newbie";
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
               element={<InteractiveRating />}
             />
             <Route path={ROUTES.newbie.statsCard} element={<StatsCard />} />
+            <Route path={ROUTES.newbie.orderSummary} element={<OrderSummary />} />
           </Route>
         </Routes>
       </BrowserRouter>

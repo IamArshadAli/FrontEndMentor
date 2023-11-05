@@ -5,6 +5,7 @@ const ROUTES = {
     nftCard: "nft-card",
     interactiveRating: "interactive-rating",
     statsCard: "stats-card",
+    orderSummary: "order-summary",
   },
 };
 
