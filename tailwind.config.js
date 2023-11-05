@@ -16,6 +16,8 @@ export default {
         // ! 1-5
         Inter: ["Inter", "sans-serif"],
         LexendDeca: ["LexendDeca", "sans-serif"],
+        // ! 1-6
+        RedHatDisplay: ["Red Hat Display", "sans-serif"],
       },
       colors: {
         // ! 1-1
@@ -66,6 +68,14 @@ export default {
         // Neutral
         SlightlyTransparentWhiteMainParagraph: "hsla(0, 0%, 100%, 0.75)",
         SlightlyTransparentWhiteStatHeadings: "hsla(0, 0%, 100%, 0.6)",
+        // ! 1-6
+        // Primary
+        PaleBlue16: "hsl(225, 100%, 94%)",
+        BrightBlue: "hsl(245, 75%, 52%)",
+        // Neutral
+        VeryPaleBlue: "hsl(225, 100%, 98%)",
+        DesaturatedBlue: "hsl(224, 23%, 55%)",
+        DarkBlue16: "hsl(223, 47%, 23%)",
       },
     },
   },
