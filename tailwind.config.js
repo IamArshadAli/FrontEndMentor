@@ -76,6 +76,10 @@ export default {
         VeryPaleBlue: "hsl(225, 100%, 98%)",
         DesaturatedBlue: "hsl(224, 23%, 55%)",
         DarkBlue16: "hsl(223, 47%, 23%)",
+        // ! 1-7
+        LightGray: "hsl(212, 45%, 89%)",
+        GrayishBlue: "hsl(220, 15%, 55%)",
+        DarkBlue17: "hsl(218, 44%, 22%)",
       },
     },
   },
