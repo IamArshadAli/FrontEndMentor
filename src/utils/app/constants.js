@@ -6,6 +6,7 @@ const ROUTES = {
     interactiveRating: "interactive-rating",
     statsCard: "stats-card",
     orderSummary: "order-summary",
+    qrCode: "qr-code",
   },
 };
 
