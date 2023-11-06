@@ -1,4 +1,4 @@
-import { N1, N2, N3, N4, N5, N6 } from "../../assets/images/app";
+import { N1, N2, N3, N4, N5, N6, N7 } from "../../assets/images/app";
 
 import { LEVEL, TAGS, ROUTES } from "./constants";
 
@@ -44,5 +44,12 @@ export const AppData = [
     tags: [TAGS.html, TAGS.css],
     level: LEVEL.newbie,
     link: `${LEVEL.newbie.name}/${ROUTES.newbie.orderSummary}`,
+  },
+  {
+    image: N7,
+    name: "QR Code",
+    tags: [TAGS.html, TAGS.css],
+    level: LEVEL.newbie,
+    link: `${LEVEL.newbie.name}/${ROUTES.newbie.qrCode}`,
   },
 ];
