@@ -49,7 +49,7 @@ const Cards = () => {
 
 const FrontEndMentor = () => {
   return (
-    <main className="max-w-screen bg-PaleBlue pb-10">
+    <main className="max-w-screen min-h-screen bg-PaleBlue pb-10">
       <div className="container mx-auto">
         <header className="text-center">
           <div className="text-3xl text-DarkGrayishBlue font-bold tracking-wide font-Fraunces py-4">
