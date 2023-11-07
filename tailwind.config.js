@@ -15,9 +15,12 @@ export default {
         Overpass: ["Overpass", "sans-serif"],
         // ! 1-5
         Inter: ["Inter", "sans-serif"],
+        // ! 1-5 | 1-8
         LexendDeca: ["LexendDeca", "sans-serif"],
         // ! 1-6
         RedHatDisplay: ["Red Hat Display", "sans-serif"],
+        // ! 1-8
+        BigShouldersDisplay: ["Big Shoulders Display", "sans-serif"],
       },
       colors: {
         // ! 1-1
@@ -80,6 +83,14 @@ export default {
         LightGray: "hsl(212, 45%, 89%)",
         GrayishBlue: "hsl(220, 15%, 55%)",
         DarkBlue17: "hsl(218, 44%, 22%)",
+        // ! 1-8
+        // Primary
+        BrightOrange: "hsl(31, 77%, 52%)",
+        DarkCyan18: "hsl(184, 100%, 22%)",
+        VeryDarkCyan: "hsl(179, 100%, 13%)",
+        // Neutral
+        TransparentWhite: "hsla(0, 0%, 100%, 0.75)",
+        VeryLightGray: "hsl(0, 0%, 95%)",
       },
     },
   },
