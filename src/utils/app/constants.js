@@ -7,6 +7,7 @@ const ROUTES = {
     statsCard: "stats-card",
     orderSummary: "order-summary",
     qrCode: "qr-code",
+    threeColumnCard: "three-column-card",
   },
 };
 

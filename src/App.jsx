@@ -8,7 +8,8 @@ import {
   InteractiveRating,
   StatsCard,
   OrderSummary,
-  QRCode
+  QRCode,
+  ThreeColumnCard,
 } from "./components/1-newbie";
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
             <Route path={ROUTES.newbie.statsCard} element={<StatsCard />} />
             <Route path={ROUTES.newbie.orderSummary} element={<OrderSummary />} />
             <Route path={ROUTES.newbie.qrCode} element={<QRCode />} />
+            <Route path={ROUTES.newbie.threeColumnCard} element={<ThreeColumnCard />} />
           </Route>
         </Routes>
       </BrowserRouter>
