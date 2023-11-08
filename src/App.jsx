@@ -15,7 +15,7 @@ import {
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="FrontEndMentor">
         <Routes>
           <Route path="/FrontEndMentor" element={<FrontEndMentor />} />
           <Route
