@@ -14,7 +14,7 @@ import {
 
 function App() {
   return (
-    <BrowserRouter basename={import.meta.env.DEV ? "/" : "FrontEndMentor"}>
+    <BrowserRouter>
       <Routes>
         <Route path="/FrontEndMentor" element={<FrontEndMentor />} />
         <Route
