@@ -8,6 +8,7 @@ const ROUTES = {
     orderSummary: "order-summary",
     qrCode: "qr-code",
     threeColumnCard: "three-column-card",
+    profileCard: "profile-card",
   },
 };
 

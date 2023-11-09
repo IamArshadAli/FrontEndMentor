@@ -10,6 +10,7 @@ import {
   OrderSummary,
   QRCode,
   ThreeColumnCard,
+  ProfileCard,
 } from "./components/1-newbie";
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
             path={ROUTES.newbie.threeColumnCard}
             element={<ThreeColumnCard />}
           />
+          <Route path={ROUTES.newbie.profileCard} element={<ProfileCard />} />
         </Route>
       </Routes>
     </BrowserRouter>
