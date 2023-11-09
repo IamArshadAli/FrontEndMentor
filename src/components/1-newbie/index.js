@@ -6,5 +6,6 @@ import StatsCard from "./5-stats-card/StatsCard";
 import OrderSummary from "./6-order-summary/OrderSummary";
 import QRCode from "./7-qr-code/QRCode";
 import ThreeColumnCard from "./8-three-column/ThreeColumnCard";
+import ProfileCard from "./9-profile-card/ProfileCard";
 
-export { ResultSummary, ProductCard, NFTCard, InteractiveRating, StatsCard, OrderSummary, QRCode, ThreeColumnCard };
+export { ResultSummary, ProductCard, NFTCard, InteractiveRating, StatsCard, OrderSummary, QRCode, ThreeColumnCard, ProfileCard };
