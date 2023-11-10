@@ -7,5 +7,6 @@ import OrderSummary from "./6-order-summary/OrderSummary";
 import QRCode from "./7-qr-code/QRCode";
 import ThreeColumnCard from "./8-three-column/ThreeColumnCard";
 import ProfileCard from "./9-profile-card/ProfileCard";
+import FAQAccordian from "./10-faq-accordion/FAQAccordian";
 
-export { ResultSummary, ProductCard, NFTCard, InteractiveRating, StatsCard, OrderSummary, QRCode, ThreeColumnCard, ProfileCard };
+export { ResultSummary, ProductCard, NFTCard, InteractiveRating, StatsCard, OrderSummary, QRCode, ThreeColumnCard, ProfileCard, FAQAccordian };
