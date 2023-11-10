@@ -11,6 +11,7 @@ import {
   QRCode,
   ThreeColumnCard,
   ProfileCard,
+  FAQAccordian
 } from "./components/1-newbie";
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
             element={<ThreeColumnCard />}
           />
           <Route path={ROUTES.newbie.profileCard} element={<ProfileCard />} />
+          <Route path={ROUTES.newbie.faqAccordion} element={<FAQAccordian />} />
         </Route>
       </Routes>
     </BrowserRouter>

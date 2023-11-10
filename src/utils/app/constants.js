@@ -9,6 +9,7 @@ const ROUTES = {
     qrCode: "qr-code",
     threeColumnCard: "three-column-card",
     profileCard: "profile-card",
+    faqAccordion: "faq-accordion",
   },
 };
 
