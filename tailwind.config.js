@@ -21,7 +21,7 @@ export default {
         RedHatDisplay: ["Red Hat Display", "sans-serif"],
         // ! 1-8
         BigShouldersDisplay: ["Big Shoulders Display", "sans-serif"],
-        // ! 1-9
+        // ! 1-9 | 1-10
         KumbhSans: ["Kumbh Sans", "sans-serif"],
       },
       colors: {
@@ -100,6 +100,20 @@ export default {
         DarkGrayishBlue19: "hsl(227, 10%, 46%)",
         // Neutral
         DarkGray: "hsl(0, 0%, 59%)",
+        // ! 1-10
+        // *Primary
+        // Text
+        VeryDarkDesaturatedBlue110: "hsl(238, 29%, 16%)",
+        SoftRed: "hsl(14, 88%, 65%)",
+        // Gradient
+        SoftViolet: "hsl(273, 75%, 66%)",
+        SoftBlue110: "hsl(240, 73%, 65%)",
+        // *Neutral
+        // Text
+        VeryDarkGrayishBlue: "hsl(237, 12%, 33%)",
+        DarkGrayishBlue110: "hsl(240, 6%, 50%)",
+        // Dividers
+        LightGrayishBlue: "hsl(240, 5%, 91%)",
       },
     },
   },
