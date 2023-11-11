@@ -45,7 +45,7 @@ const SocialProofSection = () => {
   const Review = ({ photo, name, message, offset }) => {
     return (
       <div
-        className={`flex flex-col gap-4 p-6 h-full bg-VeryDarkMagenta rounded-md ${
+        className={`flex flex-col gap-6 p-6 h-full bg-VeryDarkMagenta rounded-md ${
           !isMobile && offset
         } text-sm text-LightGrayishMagenta md:max-w-xs`}
       >
