@@ -23,6 +23,8 @@ export default {
         BigShouldersDisplay: ["Big Shoulders Display", "sans-serif"],
         // ! 1-9 | 1-10
         KumbhSans: ["Kumbh Sans", "sans-serif"],
+        // ! 1-11
+        LeagueSpartan: ["League Spartan", "sans-serif"],
       },
       colors: {
         // ! 1-1
@@ -114,6 +116,13 @@ export default {
         DarkGrayishBlue110: "hsl(240, 6%, 50%)",
         // Dividers
         LightGrayishBlue: "hsl(240, 5%, 91%)",
+        // ! 1-11
+        // Primary
+        VeryDarkMagenta: "hsl(300, 43%, 22%)",
+        SoftPink: "hsl(333, 80%, 67%)",
+        // Neutral
+        DarkGrayishMagenta: "hsl(303, 10%, 53%)",
+        LightGrayishMagenta: "hsl(300, 24%, 96%)",
       },
     },
   },
