@@ -50,7 +50,7 @@ const SocialProofSection = () => {
         } text-sm text-LightGrayishMagenta md:max-w-xs`}
       >
         <div className="flex space-x-3 items-center">
-          <img src={photo} alt={name} className="rounded-full w-10 md:w-12" />
+          <img src={photo} alt={name} className="rounded-full w-10" />
           <div>
             <p className="font-semibold">{name}</p>
             <p className="text-SoftPink">Verified Buyer</p>
@@ -60,6 +60,7 @@ const SocialProofSection = () => {
       </div>
     );
   };
+
   return (
     <div className="w-screen min-h-screen grid place-items-center bg White relative">
       {/* BG Patterns */}
