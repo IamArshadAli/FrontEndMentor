@@ -11,7 +11,8 @@ import {
   QRCode,
   ThreeColumnCard,
   ProfileCard,
-  FAQAccordian
+  FAQAccordian,
+  SocialProofSection,
 } from "./components/1-newbie";
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
           />
           <Route path={ROUTES.newbie.profileCard} element={<ProfileCard />} />
           <Route path={ROUTES.newbie.faqAccordion} element={<FAQAccordian />} />
+          <Route path={ROUTES.newbie.socialProofSection} element={<SocialProofSection />} />
         </Route>
       </Routes>
     </BrowserRouter>
