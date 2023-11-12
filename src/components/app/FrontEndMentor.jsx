@@ -3,6 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import { AppData } from "../../utils/app/data";
 
 const Cards = () => {
+  const ReversedData = AppData.slice().reverse();
   const Chip = ({ style, name }) => {
     return (
       <div
@@ -14,7 +15,7 @@ const Cards = () => {
   };
   return (
     <>
-      {AppData.map((data, index) => (
+      {ReversedData.map((data, index) => (
         <div
           key={index}
           className="max-w-sm overflow-hidden shadow-lg rounded-xl bg-neutral-50"
