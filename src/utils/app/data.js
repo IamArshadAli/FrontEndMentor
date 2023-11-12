@@ -1,4 +1,4 @@
-import { N1, N2, N3, N4, N5, N6, N7, N8, N9, N10, N11 } from "../../assets/images/app";
+import { N1, N2, N3, N4, N5, N6, N7, N8, N9, N10, N11, N12 } from "../../assets/images/app";
 
 import { LEVEL, TAGS, ROUTES } from "./constants";
 
@@ -79,5 +79,12 @@ export const AppData = [
     tags: [TAGS.html, TAGS.css],
     level: LEVEL.newbie,
     link: `${LEVEL.newbie.name}/${ROUTES.newbie.socialProofSection}`,
+  },
+  {
+    image: N12,
+    name: "Article Preview Component",
+    tags: [TAGS.html, TAGS.css, TAGS.js],
+    level: LEVEL.newbie,
+    link: `${LEVEL.newbie.name}/${ROUTES.newbie.articlePreview}`,
   },
 ];
