@@ -11,6 +11,7 @@ const ROUTES = {
     profileCard: "profile-card",
     faqAccordion: "faq-accordion",
     socialProofSection: "social-proof-section",
+    articlePreview: "article-preview",
   },
 };
 
