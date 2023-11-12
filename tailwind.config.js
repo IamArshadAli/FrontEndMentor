@@ -25,6 +25,8 @@ export default {
         KumbhSans: ["Kumbh Sans", "sans-serif"],
         // ! 1-11
         LeagueSpartan: ["League Spartan", "sans-serif"],
+        // ! 1-11
+        Manrope: ["Manrope", "sans-serif"],
       },
       colors: {
         // ! 1-1
@@ -123,6 +125,11 @@ export default {
         // Neutral
         DarkGrayishMagenta: "hsl(303, 10%, 53%)",
         LightGrayishMagenta: "hsl(300, 24%, 96%)",
+        // ! 1-12
+        VeryDarkGrayishBlue112: "hsl(217, 19%, 35%)",
+        DesaturatedDarkBlue: "hsl(214, 17%, 51%)",
+        GrayishBlue112: "hsl(212, 23%, 69%)",
+        LightGrayishBlue112: "hsl(210, 46%, 95%)",
       },
     },
   },
