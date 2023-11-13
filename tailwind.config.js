@@ -25,8 +25,10 @@ export default {
         KumbhSans: ["Kumbh Sans", "sans-serif"],
         // ! 1-11
         LeagueSpartan: ["League Spartan", "sans-serif"],
-        // ! 1-11
+        // ! 1-12
         Manrope: ["Manrope", "sans-serif"],
+        // ! 1-13
+        Poppins: ["Poppins", "sans-serif"],
       },
       colors: {
         // ! 1-1
@@ -130,6 +132,16 @@ export default {
         DesaturatedDarkBlue: "hsl(214, 17%, 51%)",
         GrayishBlue112: "hsl(212, 23%, 69%)",
         LightGrayishBlue112: "hsl(210, 46%, 95%)",
+        // ! 1-13
+        // Primary
+        Red: "hsl(0, 78%, 62%)",
+        Cyan113: "hsl(180, 62%, 55%)",
+        Orange113: "hsl(34, 97%, 64%)",
+        Blue: "hsl(212, 86%, 64%)",
+        // Neutral
+        VeryDarkBlue113: "hsl(234, 12%, 34%)",
+        GrayishBlue113: "hsl(229, 6%, 66%)",
+        VeryLightGray113: "hsl(0, 0%, 98%)",
       },
     },
   },
