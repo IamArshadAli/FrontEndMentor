@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import { Link, NavLink } from "react-router-dom";
 import { AppData } from "../../utils/app/data";
+import { CodeIcon } from "../../utils/app/svg";
 
 const Cards = () => {
   const ReversedData = AppData.slice().reverse();
@@ -26,12 +27,17 @@ const Cards = () => {
           </Link>
           {/* name */}
           <div className="p-4 text-DarkGrayishBlue">
-            <NavLink
-              to={data.link}
-              className="hover:underline hover:underline-offset-2 text-lg font-HankenGrotesk font-semibold"
-            >
-              {data.name}
-            </NavLink>
+            <div className="flex justify-between items-center">
+              <NavLink
+                to={data.link}
+                className="hover:underline hover:underline-offset-2 text-lg font-HankenGrotesk font-semibold"
+              >
+                {data.name}
+              </NavLink>  
+              <a href={data.code} target="_blank" rel="noopener noreferrer">
+                <CodeIcon />
+              </a>
+            </div>
             {/* tags | level */}
             <div className="flex justify-between pt-3">
               <div className="flex space-x-3">
