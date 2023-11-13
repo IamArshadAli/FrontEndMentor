@@ -10,5 +10,20 @@ import ProfileCard from "./9-profile-card/ProfileCard";
 import FAQAccordian from "./10-faq-accordion/FAQAccordian";
 import SocialProofSection from "./11-social-proof-section/SocialProofSection";
 import ArticlePreview from "./12-article-preview/ArticlePreview";
+import FourCardFeature from "./13-four-card-feature/FourCardFeature";
 
-export { ResultSummary, ProductCard, NFTCard, InteractiveRating, StatsCard, OrderSummary, QRCode, ThreeColumnCard, ProfileCard, FAQAccordian, SocialProofSection, ArticlePreview };
+export {
+  ResultSummary,
+  ProductCard,
+  NFTCard,
+  InteractiveRating,
+  StatsCard,
+  OrderSummary,
+  QRCode,
+  ThreeColumnCard,
+  ProfileCard,
+  FAQAccordian,
+  SocialProofSection,
+  ArticlePreview,
+  FourCardFeature,
+};
