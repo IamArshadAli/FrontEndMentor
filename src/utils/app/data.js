@@ -1,6 +1,6 @@
 import { N1, N2, N3, N4, N5, N6, N7, N8, N9, N10, N11, N12, N13 } from "../../assets/images/app";
 
-import { LEVEL, TAGS, ROUTES } from "./constants";
+import { LEVEL, TAGS, ROUTES, REPO } from "./constants";
 
 export const AppData = [
   {
@@ -9,6 +9,7 @@ export const AppData = [
     tags: [TAGS.html, TAGS.css],
     level: LEVEL.newbie,
     link: `${LEVEL.newbie.name}/${ROUTES.newbie.resultSummary}`,
+    code: `${REPO}1-${LEVEL.newbie.name}/1-${ROUTES.newbie.resultSummary}`,
   },
   {
     image: N2,
@@ -16,6 +17,7 @@ export const AppData = [
     tags: [TAGS.html, TAGS.css],
     level: LEVEL.newbie,
     link: `${LEVEL.newbie.name}/${ROUTES.newbie.productCard}`,
+    code: `${REPO}1-${LEVEL.newbie.name}/2-${ROUTES.newbie.productCard}`,
   },
   {
     image: N3,
@@ -23,6 +25,7 @@ export const AppData = [
     tags: [TAGS.html, TAGS.css],
     level: LEVEL.newbie,
     link: `${LEVEL.newbie.name}/${ROUTES.newbie.nftCard}`,
+    code: `${REPO}1-${LEVEL.newbie.name}/3-${ROUTES.newbie.nftCard}`,
   },
   {
     image: N4,
@@ -30,6 +33,7 @@ export const AppData = [
     tags: [TAGS.html, TAGS.css, TAGS.js],
     level: LEVEL.newbie,
     link: `${LEVEL.newbie.name}/${ROUTES.newbie.interactiveRating}`,
+    code: `${REPO}1-${LEVEL.newbie.name}/4-${ROUTES.newbie.interactiveRating}`,
   },
   {
     image: N5,
@@ -37,6 +41,7 @@ export const AppData = [
     tags: [TAGS.html, TAGS.css],
     level: LEVEL.newbie,
     link: `${LEVEL.newbie.name}/${ROUTES.newbie.statsCard}`,
+    code: `${REPO}1-${LEVEL.newbie.name}/5-${ROUTES.newbie.statsCard}`,
   },
   {
     image: N6,
@@ -44,6 +49,7 @@ export const AppData = [
     tags: [TAGS.html, TAGS.css],
     level: LEVEL.newbie,
     link: `${LEVEL.newbie.name}/${ROUTES.newbie.orderSummary}`,
+    code: `${REPO}1-${LEVEL.newbie.name}/6-${ROUTES.newbie.orderSummary}`,
   },
   {
     image: N7,
@@ -51,6 +57,7 @@ export const AppData = [
     tags: [TAGS.html, TAGS.css],
     level: LEVEL.newbie,
     link: `${LEVEL.newbie.name}/${ROUTES.newbie.qrCode}`,
+    code: `${REPO}1-${LEVEL.newbie.name}/7-${ROUTES.newbie.qrCode}`,
   },
   {
     image: N8,
@@ -58,6 +65,7 @@ export const AppData = [
     tags: [TAGS.html, TAGS.css],
     level: LEVEL.newbie,
     link: `${LEVEL.newbie.name}/${ROUTES.newbie.threeColumnCard}`,
+    code: `${REPO}1-${LEVEL.newbie.name}/8-${ROUTES.newbie.threeColumnCard}`,
   },
   {
     image: N9,
@@ -65,6 +73,7 @@ export const AppData = [
     tags: [TAGS.html, TAGS.css],
     level: LEVEL.newbie,
     link: `${LEVEL.newbie.name}/${ROUTES.newbie.profileCard}`,
+    code: `${REPO}1-${LEVEL.newbie.name}/9-${ROUTES.newbie.profileCard}`,
   },
   {
     image: N10,
@@ -72,6 +81,7 @@ export const AppData = [
     tags: [TAGS.html, TAGS.css, TAGS.js],
     level: LEVEL.newbie,
     link: `${LEVEL.newbie.name}/${ROUTES.newbie.faqAccordion}`,
+    code: `${REPO}1-${LEVEL.newbie.name}/10-${ROUTES.newbie.faqAccordion}`,
   },
   {
     image: N11,
@@ -79,6 +89,7 @@ export const AppData = [
     tags: [TAGS.html, TAGS.css],
     level: LEVEL.newbie,
     link: `${LEVEL.newbie.name}/${ROUTES.newbie.socialProofSection}`,
+    code: `${REPO}1-${LEVEL.newbie.name}/11-${ROUTES.newbie.socialProofSection}`,
   },
   {
     image: N12,
@@ -86,6 +97,7 @@ export const AppData = [
     tags: [TAGS.html, TAGS.css, TAGS.js],
     level: LEVEL.newbie,
     link: `${LEVEL.newbie.name}/${ROUTES.newbie.articlePreview}`,
+    code: `${REPO}1-${LEVEL.newbie.name}/12-${ROUTES.newbie.articlePreview}`,
   },
   {
     image: N13,
@@ -93,5 +105,6 @@ export const AppData = [
     tags: [TAGS.html, TAGS.css],
     level: LEVEL.newbie,
     link: `${LEVEL.newbie.name}/${ROUTES.newbie.fourCardFeature}`,
+    code: `${REPO}1-${LEVEL.newbie.name}/13-${ROUTES.newbie.fourCardFeature}`,
   },
 ];

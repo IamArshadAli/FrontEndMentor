@@ -1,6 +1,6 @@
 const ROUTES = {
   newbie: {
-    resultSummary: "result-summary",
+    resultSummary: "results-summary",
     productCard: "product-card",
     nftCard: "nft-card",
     interactiveRating: "interactive-rating",
@@ -16,6 +16,9 @@ const ROUTES = {
   },
 };
 
+const REPO =
+  "https://github.com/IamArshadAli/FrontEndMentor/tree/main/src/components/";
+
 const LEVEL = {
   newbie: { name: "newbie", style: "text-DarkCyan border border-DarkCyan" },
   junior: { name: "junior", style: "text- border border-" },
@@ -29,4 +32,4 @@ const TAGS = {
   js: { name: "js", style: "text-OrangeYellow bg-OrangeYellow" },
 };
 
-export { ROUTES, LEVEL, TAGS };
+export { ROUTES, LEVEL, TAGS, REPO };
