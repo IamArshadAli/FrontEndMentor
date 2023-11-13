@@ -12,6 +12,7 @@ const ROUTES = {
     faqAccordion: "faq-accordion",
     socialProofSection: "social-proof-section",
     articlePreview: "article-preview",
+    fourCardFeature: "four-card-feature",
   },
 };
 

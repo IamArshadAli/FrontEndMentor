@@ -14,6 +14,7 @@ import {
   FAQAccordian,
   SocialProofSection,
   ArticlePreview,
+  FourCardFeature,
 } from "./components/1-newbie";
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
           <Route path={ROUTES.newbie.faqAccordion} element={<FAQAccordian />} />
           <Route path={ROUTES.newbie.socialProofSection} element={<SocialProofSection />} />
           <Route path={ROUTES.newbie.articlePreview} element={<ArticlePreview />} />
+          <Route path={ROUTES.newbie.fourCardFeature} element={<FourCardFeature />} />
         </Route>
       </Routes>
     </BrowserRouter>
