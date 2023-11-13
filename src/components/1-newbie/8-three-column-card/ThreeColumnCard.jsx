@@ -3,7 +3,7 @@ import {
   luxuryIcon,
   sedansIcon,
   suvsIcon,
-} from "../../../assets/images/1-newbie/8-three-column";
+} from "../../../assets/images/1-newbie/8-three-column-card";
 
 const Card = ({ logo, title, content, text, bg }) => {
   return <div className={`flex-1 flex flex-col gap-4 p-8 ${bg}`}>
