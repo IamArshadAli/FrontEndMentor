@@ -29,6 +29,8 @@ export default {
         Manrope: ["Manrope", "sans-serif"],
         // ! 1-13
         Poppins: ["Poppins", "sans-serif"],
+        // ! 1-14
+        JosefinSans: ["Josefin Sans", "sans-serif"],
       },
       colors: {
         // ! 1-1
@@ -142,6 +144,15 @@ export default {
         VeryDarkBlue113: "hsl(234, 12%, 34%)",
         GrayishBlue113: "hsl(229, 6%, 66%)",
         VeryLightGray113: "hsl(0, 0%, 98%)",
+        // ! 1-14
+        // Primary
+        DesaturatedRed: "hsl(0, 36%, 70%)",
+        SoftRed114: "hsl(0, 93%, 68%)",
+        // Neutral
+        DarkGrayishRed: "hsl(0, 6%, 24%)",
+        // Gradients
+        // Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%)
+        // Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%)
       },
     },
   },
