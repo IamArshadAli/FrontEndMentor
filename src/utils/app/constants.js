@@ -14,6 +14,7 @@ const ROUTES = {
     articlePreview: "article-preview",
     fourCardFeature: "four-card-feature",
     baseApparel: "base-apparel",
+    introComponent: "intro-component",
   },
 };
 
