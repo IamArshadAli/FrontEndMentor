@@ -15,6 +15,7 @@ import {
   SocialProofSection,
   ArticlePreview,
   FourCardFeature,
+  BaseApparel,
 } from "./components/1-newbie";
 
 function App() {
@@ -52,6 +53,7 @@ function App() {
           <Route path={ROUTES.newbie.socialProofSection} element={<SocialProofSection />} />
           <Route path={ROUTES.newbie.articlePreview} element={<ArticlePreview />} />
           <Route path={ROUTES.newbie.fourCardFeature} element={<FourCardFeature />} />
+          <Route path={ROUTES.newbie.baseApparel} element={<BaseApparel />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -13,6 +13,7 @@ const ROUTES = {
     socialProofSection: "social-proof-section",
     articlePreview: "article-preview",
     fourCardFeature: "four-card-feature",
+    baseApparel: "base-apparel",
   },
 };
 
