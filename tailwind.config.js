@@ -27,7 +27,7 @@ export default {
         LeagueSpartan: ["League Spartan", "sans-serif"],
         // ! 1-12
         Manrope: ["Manrope", "sans-serif"],
-        // ! 1-13
+        // ! 1-13 | 1-15
         Poppins: ["Poppins", "sans-serif"],
         // ! 1-14
         JosefinSans: ["Josefin Sans", "sans-serif"],
@@ -153,6 +153,15 @@ export default {
         // Gradients
         // Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%)
         // Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%)
+        // ! 1-15
+        // Primary
+        Red115: "hsl(0, 100%, 74%) ",
+        Green: "hsl(154, 59%, 51%)",
+        // Neutral
+        DarkBlue115: "hsl(249, 10%, 26%) ",
+        GrayishBlue115: "hsl(246, 25%, 77%)",
+        // Accent
+        Blue115: "hsl(248, 32%, 49%)",
       },
     },
   },
