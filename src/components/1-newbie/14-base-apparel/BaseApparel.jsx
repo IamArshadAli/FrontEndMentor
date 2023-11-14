@@ -42,7 +42,7 @@ const BaseApparel = () => {
     };
   }, []);
   return (
-    <div className="max-w-screen max-h-screen bg-gradient-to-br from-[hsl(0, 80%, 86%)] to-[hsl(0, 74%, 74%)] font-JosefinSans overflow-hidden flex flex-col md:flex-row relative">
+    <div className="max-w-screen max-h-screen font-JosefinSans overflow-hidden flex flex-col md:flex-row relative bg-gradient-to-br from-[#FFFFFF] to-[#FFF5F5] md:bg-none">
       <img src={logo} alt="Base Apparel Logo" className="w-28 md:w-36 m-6 md:mx-40 md:mt-14 self-start md:fixed" />
       <img
         src={isMobile ? heroMobile : heroPC}
@@ -81,7 +81,7 @@ const BaseApparel = () => {
                 )}
                 <button
                   type="submit"
-                  className="bg-DesaturatedRed px-6 md:px-8 py-3 md:py-4 rounded-full shadow-xl hover:drop-shadow-xl grid place-items-center"
+                  className="bg-gradient-to-br from-[#F8BFBF] to-[#EE8C8C] px-6 md:px-10 py-3 md:py-5 rounded-full shadow-xl hover:drop-shadow-xl grid place-items-center"
                 >
                   <img
                     src={arrowIcon}
