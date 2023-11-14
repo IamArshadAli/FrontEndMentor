@@ -1,4 +1,4 @@
-import { N1, N2, N3, N4, N5, N6, N7, N8, N9, N10, N11, N12, N13 } from "../../assets/images/app";
+import { N1, N2, N3, N4, N5, N6, N7, N8, N9, N10, N11, N12, N13,N14 } from "../../assets/images/app";
 
 import { LEVEL, TAGS, ROUTES, REPO } from "./constants";
 
@@ -106,5 +106,13 @@ export const AppData = [
     level: LEVEL.newbie,
     link: `${LEVEL.newbie.name}/${ROUTES.newbie.fourCardFeature}`,
     code: `${REPO}1-${LEVEL.newbie.name}/13-${ROUTES.newbie.fourCardFeature}`,
+  },
+  {
+    image: N14,
+    name: "Base Apparel Coming Soon",
+    tags: [TAGS.html, TAGS.css, TAGS.js],
+    level: LEVEL.newbie,
+    link: `${LEVEL.newbie.name}/${ROUTES.newbie.baseApparel}`,
+    code: `${REPO}1-${LEVEL.newbie.name}/14-${ROUTES.newbie.baseApparel}`,
   },
 ];
