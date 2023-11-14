@@ -1,8 +1,7 @@
-# React + Vite
+# [FrontEnd Mentor](https://frontendmentor.io "FrontEnd Mentor") Challanges
+###### Author: [Arshad Ali Kaldane](https://www.frontendmentor.io/profile/IamArshadAli "FrontEnd Mentor Profile")
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the solutions for the FrontEnd Mentor's challenges completed by the author.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Website Screenshot](./src/assets/images/website-ss.png "Website Screenshot")
+[Link to Live Site ->](https://iamarshadali.github.io/FrontEndMentor/ "FrontEnd Mentor Designs by Arshad Ali Kaldane")
