@@ -16,6 +16,7 @@ import {
   ArticlePreview,
   FourCardFeature,
   BaseApparel,
+  IntroComponent,
 } from "./components/1-newbie";
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
           <Route path={ROUTES.newbie.articlePreview} element={<ArticlePreview />} />
           <Route path={ROUTES.newbie.fourCardFeature} element={<FourCardFeature />} />
           <Route path={ROUTES.newbie.baseApparel} element={<BaseApparel />} />
+          <Route path={ROUTES.newbie.introComponent} element={<IntroComponent />} />
         </Route>
       </Routes>
     </BrowserRouter>
