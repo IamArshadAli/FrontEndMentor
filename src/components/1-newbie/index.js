@@ -12,6 +12,7 @@ import SocialProofSection from "./11-social-proof-section/SocialProofSection";
 import ArticlePreview from "./12-article-preview/ArticlePreview";
 import FourCardFeature from "./13-four-card-feature/FourCardFeature";
 import BaseApparel from "./14-base-apparel/BaseApparel";
+import IntroComponent from "./15-intro-component/IntroComponent";
 
 export {
   ResultSummary,
@@ -27,5 +28,6 @@ export {
   SocialProofSection,
   ArticlePreview,
   FourCardFeature,
-  BaseApparel
+  BaseApparel,
+  IntroComponent
 };
