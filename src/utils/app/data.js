@@ -15,7 +15,8 @@ import {
   N14,
   N15,
   N16,
-  N17
+  N17,
+  N18
 } from "../../assets/images/app";
 
 import { LEVEL, TAGS, ROUTES, REPO } from "./constants";
@@ -156,5 +157,13 @@ export const AppData = [
     level: LEVEL.newbie,
     link: `${LEVEL.newbie.name}/${ROUTES.newbie.pingComingSoon}`,
     code: `${REPO}1-${LEVEL.newbie.name}/17-${ROUTES.newbie.pingComingSoon}`,
+  },
+  {
+    image: N18,
+    name: "Huddle Landing Page",
+    tags: [TAGS.html, TAGS.css],
+    level: LEVEL.newbie,
+    link: `${LEVEL.newbie.name}/${ROUTES.newbie.huddleLandingPage}`,
+    code: `${REPO}1-${LEVEL.newbie.name}/18-${ROUTES.newbie.huddleLandingPage}`,
   },
 ];
