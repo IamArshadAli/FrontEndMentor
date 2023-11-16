@@ -31,6 +31,9 @@ export default {
         Poppins: ["Poppins", "sans-serif"],
         // ! 1-14
         JosefinSans: ["Josefin Sans", "sans-serif"],
+        // ! 1-16
+        Karla: ["Karla", "sans-serif"],
+
       },
       colors: {
         // ! 1-1
@@ -162,6 +165,13 @@ export default {
         GrayishBlue115: "hsl(246, 25%, 77%)",
         // Accent
         Blue115: "hsl(248, 32%, 49%)",
+        // ! 1-16
+        // Primary
+        Cyan116: "hsl(179, 62%, 43%)",
+        BrightYellow: "hsl(71, 73%, 54%)",
+        // Neutral
+        LightGray116: "hsl(204, 43%, 93%)",
+        GrayishBlue116: "hsl(218, 22%, 67%)",
       },
     },
   },
