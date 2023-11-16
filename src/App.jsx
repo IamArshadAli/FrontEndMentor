@@ -18,6 +18,7 @@ import {
   BaseApparel,
   IntroComponent,
   SinglePriceGrid,
+  PingComingSoon,
 } from "./components/1-newbie";
 
 function App() {
@@ -58,6 +59,7 @@ function App() {
           <Route path={ROUTES.newbie.baseApparel} element={<BaseApparel />} />
           <Route path={ROUTES.newbie.introComponent} element={<IntroComponent />} />
           <Route path={ROUTES.newbie.singlePriceGrid} element={<SinglePriceGrid />} />
+          <Route path={ROUTES.newbie.pingComingSoon} element={<PingComingSoon />} />
         </Route>
       </Routes>
     </BrowserRouter>
