@@ -4,6 +4,9 @@ import {
   logo,
 } from "../../../assets/images/1-newbie/17-ping-coming-soon";
 
+import { TiSocialFacebook, TiSocialTwitter } from "react-icons/ti";
+import { AiOutlineInstagram } from "react-icons/ai";
+
 const PingComingSoon = () => {
   const [email, setEmail] = useState("");
   const [error, setError] = useState("");
@@ -41,9 +44,7 @@ const PingComingSoon = () => {
               onChange={(e) => setEmail(e.target.value)}
             />
             {error && (
-              <p className="text-LightRed117 text-sm italic ml-10">
-                {error}
-              </p>
+              <p className="text-LightRed117 text-sm italic ml-10">{error}</p>
             )}
           </div>
           <button
@@ -58,8 +59,14 @@ const PingComingSoon = () => {
           alt="dashboard illustration"
           className="my-6"
         />
-        <div className="my-6">Social Icons</div>
-        <p className="text-Gray text-sm">&copy; Copyright Ping: All rights reserved</p>
+        <div className="my-6 flex gap-4 justify-center items-center">
+          <TiSocialFacebook className="text-Blue117 hover:text-white border border-Gray border-opacity-40 rounded-full w-9 h-9 p-2 hover:bg-Blue117 cursor-pointer" />
+          <TiSocialTwitter className="text-Blue117 hover:text-white border border-Gray border-opacity-40 rounded-full w-9 h-9 p-2 hover:bg-Blue117 cursor-pointer" />
+          <AiOutlineInstagram className="text-Blue117 hover:text-white border border-Gray border-opacity-40 rounded-full w-9 h-9 p-2 hover:bg-Blue117 cursor-pointer" />
+        </div>
+        <p className="text-Gray text-sm">
+          &copy; Copyright Ping: All rights reserved
+        </p>
       </div>
     </div>
   );
