@@ -14,6 +14,7 @@ import {
   N13,
   N14,
   N15,
+  N16,
 } from "../../assets/images/app";
 
 import { LEVEL, TAGS, ROUTES, REPO } from "./constants";
@@ -138,5 +139,13 @@ export const AppData = [
     level: LEVEL.newbie,
     link: `${LEVEL.newbie.name}/${ROUTES.newbie.introComponent}`,
     code: `${REPO}1-${LEVEL.newbie.name}/15-${ROUTES.newbie.introComponent}`,
+  },
+  {
+    image: N16,
+    name: "Single Price Grid",
+    tags: [TAGS.html, TAGS.css],
+    level: LEVEL.newbie,
+    link: `${LEVEL.newbie.name}/${ROUTES.newbie.singlePriceGrid}`,
+    code: `${REPO}1-${LEVEL.newbie.name}/16-${ROUTES.newbie.singlePriceGrid}`,
   },
 ];
