@@ -15,6 +15,7 @@ import {
   N14,
   N15,
   N16,
+  N17
 } from "../../assets/images/app";
 
 import { LEVEL, TAGS, ROUTES, REPO } from "./constants";
@@ -147,5 +148,13 @@ export const AppData = [
     level: LEVEL.newbie,
     link: `${LEVEL.newbie.name}/${ROUTES.newbie.singlePriceGrid}`,
     code: `${REPO}1-${LEVEL.newbie.name}/16-${ROUTES.newbie.singlePriceGrid}`,
+  },
+  {
+    image: N17,
+    name: "Ping Coming Soon Page",
+    tags: [TAGS.html, TAGS.css, TAGS.js],
+    level: LEVEL.newbie,
+    link: `${LEVEL.newbie.name}/${ROUTES.newbie.pingComingSoon}`,
+    code: `${REPO}1-${LEVEL.newbie.name}/17-${ROUTES.newbie.pingComingSoon}`,
   },
 ];
