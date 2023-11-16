@@ -16,6 +16,7 @@ const ROUTES = {
     baseApparel: "base-apparel",
     introComponent: "intro-component",
     singlePriceGrid: "single-price-grid",
+    pingComingSoon: "ping-coming-soon",
   },
 };
 
