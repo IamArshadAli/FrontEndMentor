@@ -6,106 +6,35 @@ import {
   bgIntroMobile,
   errorIcon,
 } from "../../../assets/images/1-newbie/15-intro-component";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const IntroComponent = () => {
   const isMobile = useMediaQuery({ query: "(max-width:649px)" });
-  const [form, setForm] = useState({
-    firstName: "",
-    lastName: "",
-    email: "",
-    password: "",
-  })
-  const [error, setError] = useState({
-    firstName: false,
-    lastName: false,
-    email: false,
-    password: false,
-  });
-  const [errorMessage, setErrorMessage] = useState({
+  const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
     email: "",
     password: "",
   });
+  const [error, setError] = useState({});
 
-  useEffect(() => {
-    const Form = document.getElementById("form");
-    const firstName = document.getElementById("firstName");
-    const lastName = document.getElementById("lastName");
-    const email = document.getElementById("email");
-    const password = document.getElementById("password");
+  const handleInputChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
 
-    //* EMAIL VALDATION
-    email.addEventListener("input", (e) => {
-      if (email.validity.valid) {
-        setError({ ...error, email: false });
-        setErrorMessage({
-          ...errorMessage,
-          email: "",
-        });
-      } else {
-        handleEmailError();
-      }
-    });
-    const handleEmailError = () => {
-      setError({ ...error, email: true });
-      if (email.validity.valueMissing)
-        setErrorMessage({ ...errorMessage, email: "Email cannot be empty" });
-      else if (email.validity.typeMismatch)
-        setErrorMessage({
-          ...errorMessage,
-          email: "Looks like this is not an email",
-        });
-    };
-    const handleFirstNameError = () => {
-      if (!form.firstName) {
-        console.log("first");
-        setError({ ...error, firstName: true });
-        setErrorMessage({
-          ...errorMessage,
-          firstName: "First Name cannot be empty",
-        });
-      } else {
-        setError({ ...error, firstName: false });
-        setErrorMessage({ ...errorMessage, firstName: "" });
-      }
-    };
-    const handleLastNameError = () => {
-      if (!form.lastName) {
-        console.log("last");
-        setError({ ...error, lastName: true });
-        setErrorMessage({
-          ...errorMessage,
-          lastName: "Last Name cannot be empty",
-        });
-      } else {
-        setError({ ...error, lastName: false });
-        setErrorMessage({ ...errorMessage, lastName: "" });
-      }
-    };
-    const handlePasswordError = () => {
-      if (!form.password) {
-        console.log("pwd");
-        setError({ ...error, password: true });
-        setErrorMessage({
-          ...errorMessage,
-          password: "Password cannot be empty",
-        });
-      } else {
-        setError({ ...error, password: false });
-        setErrorMessage({ ...errorMessage, password: "" });
-      }
-    };
-    //* FORM VALIDATION
-    Form.addEventListener("submit", (e) => {
-      if (!email.validity.valid) handleEmailError();
-      handleFirstNameError();
-      handleLastNameError();
-      handlePasswordError();
-      e.preventDefault();
-    });
-  }, [error, errorMessage, form.firstName, form.lastName, form.password]);
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const newErrors = {};
+    if (!formData.firstName) newErrors.firstName = "First Name cannot be empty";
+    if (!formData.lastName) newErrors.lastName = "Last Name cannot be empty";
+    if(!formData.email) {
+      newErrors.email = "Email cannot be empty";
+    } else if (!/\$+@\$+\.\$+/.test(formData.email)) {
+      newErrors.email = "Looks like this is not an email"
+    }
+    if (!formData.password) newErrors.password = "Password cannot be empty";
+    setError(newErrors);
+  };
 
   return (
     <main className="w-screen min-h-screen relative bg-Red115 font-Poppins grid place-items-center p-6">
@@ -139,83 +68,83 @@ const IntroComponent = () => {
           </button>
           {/* FORM */}
           <form
-            id="form"
+            onSubmit={handleSubmit}
             className="bg-White rounded-xl p-6 md:py-8 flex flex-col gap-4 border-8 border-b-red-600 border-x-0 border-t-0 border-opacity-75 w-full"
           >
             {/* First Name */}
             <div className="flex justify-between items-center border-2 rounded-lg p-4 md:px-6">
               <input
                 type="text"
-                id="firstName"
+                name="firstName"
                 placeholder="First Name"
                 className="placeholder:font-bold outline-none"
-                value={form.firstName}
-                onChange={(e)=>setForm({...form, firstName:e.target.value})}
+                value={formData.firstName}
+                onChange={handleInputChange}
               />
               {error.firstName && (
                 <img src={errorIcon} alt="error icon" className="w-6 h-6" />
               )}
             </div>
-            {errorMessage.firstName && (
+            {error.firstName && (
               <p className="text-xs text-right text-Red115 italic -mt-4 mr-1">
-                {errorMessage.firstName}
+                {error.firstName}
               </p>
             )}
             {/* Last Name */}
             <div className="flex justify-between items-center border-2 rounded-lg p-4 md:px-6">
               <input
                 type="text"
-                id="lastName"
+                name="lastName"
                 placeholder="Last Name"
                 className="placeholder:font-bold outline-none"
-                value={form.lastName}
-                onChange={(e)=>setForm({...form, lastName:e.target.value})}
+                value={formData.lastName}
+                onChange={handleInputChange}
               />
               {error.lastName && (
                 <img src={errorIcon} alt="error icon" className="w-6 h-6" />
               )}
             </div>
-            {errorMessage.lastName && (
+            {error.lastName && (
               <p className="text-xs text-right text-Red115 italic -mt-4 mr-1">
-                {errorMessage.lastName}
+                {error.lastName}
               </p>
             )}
             {/* Email */}
             <div className="flex justify-between items-center border-2 rounded-lg p-4 md:px-6">
               <input
                 type="email"
-                id="email"
+                name="email"
                 placeholder="Email Address"
                 className="placeholder:font-bold outline-none"
-                value={form.email}
-                onChange={(e)=>setForm({...form, email:e.target.value})}
+                value={formData.email}
+                onChange={handleInputChange}
               />
               {error.email && (
                 <img src={errorIcon} alt="error icon" className="w-6 h-6" />
               )}
             </div>
-            {errorMessage.email && (
+            {error.email && (
               <p className="text-xs text-right text-Red115 italic -mt-4 mr-1">
-                {errorMessage.email}
+                {error.email}
               </p>
             )}
             {/* Password */}
             <div className="flex justify-between items-center border-2 rounded-lg p-4 md:px-6">
               <input
                 type="password"
-                id="password"
+                name="password"
                 placeholder="Password"
                 className="placeholder:font-bold outline-none"
-                value={form.password}
-                onChange={(e)=>setForm({...form, password:e.target.value})}
+                value={formData.password}
+                onChange={handleInputChange}
               />
               {error.password && (
                 <img src={errorIcon} alt="error icon" className="w-6 h-6" />
               )}
             </div>
-            {errorMessage.password && (
+            {error.password && (
               <p className="text-xs text-right text-Red115 italic -mt-4 mr-1">
-                {errorMessage.password}
+                {error.password}
               </p>
             )}
             {/* SUBMIT */}
