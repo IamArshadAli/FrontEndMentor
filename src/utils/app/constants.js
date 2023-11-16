@@ -17,6 +17,7 @@ const ROUTES = {
     introComponent: "intro-component",
     singlePriceGrid: "single-price-grid",
     pingComingSoon: "ping-coming-soon",
+    huddleLandingPage: "huddle-landing-page",
   },
 };
 
