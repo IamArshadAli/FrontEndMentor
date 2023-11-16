@@ -15,6 +15,7 @@ import N14 from "./1-14.jpg";
 import N15 from "./1-15.jpg";
 import N16 from "./1-16.jpg";
 import N17 from "./1-17.jpg";
+import N18 from "./1-18.jpg";
 
 export {
   N1,
@@ -34,4 +35,5 @@ export {
   N15,
   N16,
   N17,
+  N18,
 };
