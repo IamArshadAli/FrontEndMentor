@@ -14,5 +14,24 @@ import N13 from "./1-13.jpg";
 import N14 from "./1-14.jpg";
 import N15 from "./1-15.jpg";
 import N16 from "./1-16.jpg";
+import N17 from "./1-17.jpg";
 
-export { N1, N2, N3, N4, N5, N6, N7, N8, N9, N10, N11, N12, N13, N14, N15, N16 };
+export {
+  N1,
+  N2,
+  N3,
+  N4,
+  N5,
+  N6,
+  N7,
+  N8,
+  N9,
+  N10,
+  N11,
+  N12,
+  N13,
+  N14,
+  N15,
+  N16,
+  N17,
+};
