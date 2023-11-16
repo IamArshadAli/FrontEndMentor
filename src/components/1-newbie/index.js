@@ -13,7 +13,7 @@ import ArticlePreview from "./12-article-preview/ArticlePreview";
 import FourCardFeature from "./13-four-card-feature/FourCardFeature";
 import BaseApparel from "./14-base-apparel/BaseApparel";
 import IntroComponent from "./15-intro-component/IntroComponent";
-
+import SinglePriceGrid from "./16-single-price-grid/SinglePriceGrid";
 export {
   ResultSummary,
   ProductCard,
@@ -29,5 +29,6 @@ export {
   ArticlePreview,
   FourCardFeature,
   BaseApparel,
-  IntroComponent
+  IntroComponent,
+  SinglePriceGrid
 };
