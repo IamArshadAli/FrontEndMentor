@@ -33,6 +33,8 @@ export default {
         JosefinSans: ["Josefin Sans", "sans-serif"],
         // ! 1-16
         Karla: ["Karla", "sans-serif"],
+        // ! 1-17
+        LibreFranklin: ["LibreFranklin", "sans-serif"],
 
       },
       colors: {
@@ -172,6 +174,15 @@ export default {
         // Neutral
         LightGray116: "hsl(204, 43%, 93%)",
         GrayishBlue116: "hsl(218, 22%, 67%)",
+        // ! 1-17
+        // Primary
+        Blue117: "hsl(223, 87%, 63%)",
+        // Secondary
+        PaleBlue117: "hsl(223, 100%, 88%)",
+        LightRed117: "hsl(354, 100%, 66%)",
+        // Neutral
+        Gray: "hsl(0, 0%, 59%)",
+        VeryDarkBlue117: "hsl(209, 33%, 12%)",
       },
     },
   },
