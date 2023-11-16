@@ -15,6 +15,7 @@ import BaseApparel from "./14-base-apparel/BaseApparel";
 import IntroComponent from "./15-intro-component/IntroComponent";
 import SinglePriceGrid from "./16-single-price-grid/SinglePriceGrid";
 import PingComingSoon from "./17-ping-coming-soon/PingComingSoon";
+import HuddleLandingPage from "./18-huddle-landing-page/HuddleLandingPage";
 
 export {
   ResultSummary,
@@ -33,5 +34,6 @@ export {
   BaseApparel,
   IntroComponent,
   SinglePriceGrid,
-  PingComingSoon,  
+  PingComingSoon,
+  HuddleLandingPage
 };

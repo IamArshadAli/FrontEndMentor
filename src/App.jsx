@@ -19,6 +19,7 @@ import {
   IntroComponent,
   SinglePriceGrid,
   PingComingSoon,
+  HuddleLandingPage,
 } from "./components/1-newbie";
 
 function App() {
@@ -60,6 +61,7 @@ function App() {
           <Route path={ROUTES.newbie.introComponent} element={<IntroComponent />} />
           <Route path={ROUTES.newbie.singlePriceGrid} element={<SinglePriceGrid />} />
           <Route path={ROUTES.newbie.pingComingSoon} element={<PingComingSoon />} />
+          <Route path={ROUTES.newbie.huddleLandingPage} element={<HuddleLandingPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
