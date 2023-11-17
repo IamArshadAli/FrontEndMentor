@@ -27,7 +27,7 @@ export default {
         LeagueSpartan: ["League Spartan", "sans-serif"],
         // ! 1-12
         Manrope: ["Manrope", "sans-serif"],
-        // ! 1-13 | 1-15
+        // ! 1-13 | 1-15 | 1-18
         Poppins: ["Poppins", "sans-serif"],
         // ! 1-14
         JosefinSans: ["Josefin Sans", "sans-serif"],
@@ -35,7 +35,8 @@ export default {
         Karla: ["Karla", "sans-serif"],
         // ! 1-17
         LibreFranklin: ["LibreFranklin", "sans-serif"],
-
+        // ! 1-18
+        OpenSans: ["Open Sans", "sans-serif"],
       },
       colors: {
         // ! 1-1
@@ -183,6 +184,9 @@ export default {
         // Neutral
         Gray: "hsl(0, 0%, 59%)",
         VeryDarkBlue117: "hsl(209, 33%, 12%)",
+        // ! 1-18
+        Violet: "hsl(257, 40%, 49%)",
+        SoftMagenta: "hsl(300, 69%, 71%)",
       },
     },
   },
