@@ -178,6 +178,6 @@ export const AppData = [
     tags: [TAGS.html, TAGS.css, TAGS.js],
     level: LEVEL.junior,
     link: `${LEVEL.junior.name}/${ROUTES.junior.newsletterSignUp}`,
-    code: `${REPO}2-${LEVEL.junior.name}/21-${ROUTES.junior.newsletterSignUp}`,
+    code: `${REPO}2-${LEVEL.junior.name}/1-${ROUTES.junior.newsletterSignUp}`,
   },
 ];
