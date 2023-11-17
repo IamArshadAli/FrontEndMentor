@@ -1,3 +1,4 @@
+//* NEWBIE Images
 import {
   N1,
   N2,
@@ -16,12 +17,16 @@ import {
   N15,
   N16,
   N17,
-  N18
-} from "../../assets/images/app";
+  N18,
+} from "../../assets/images/app/1-newbie";
+
+//* JUNIOR Images
+import { N21 } from "../../assets/images/app/2-junior";
 
 import { LEVEL, TAGS, ROUTES, REPO } from "./constants";
 
 export const AppData = [
+  //* N E W B I E
   {
     image: N1,
     name: "Result Summary",
@@ -165,5 +170,14 @@ export const AppData = [
     level: LEVEL.newbie,
     link: `${LEVEL.newbie.name}/${ROUTES.newbie.huddleLandingPage}`,
     code: `${REPO}1-${LEVEL.newbie.name}/18-${ROUTES.newbie.huddleLandingPage}`,
+  },
+  //* J U N I O R
+  {
+    image: N21,
+    name: "Newsletter Sign Up",
+    tags: [TAGS.html, TAGS.css, TAGS.js],
+    level: LEVEL.junior,
+    link: `${LEVEL.junior.name}/${ROUTES.junior.newsletterSignUp}`,
+    code: `${REPO}1-${LEVEL.junior.name}/21-${ROUTES.junior.newsletterSignUp}`,
   },
 ];
