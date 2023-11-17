@@ -4,6 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        //* N E W B I E
         // ! 1-1
         HankenGrotesk: ["Hanken Grotesk", "sans-serif"],
         // ! 1-2
@@ -37,8 +38,12 @@ export default {
         LibreFranklin: ["LibreFranklin", "sans-serif"],
         // ! 1-18
         OpenSans: ["Open Sans", "sans-serif"],
+        // * J U N I O R
+        // ! 2-1
+        Roboto: ["Roboto", "sans-serif"],
       },
       colors: {
+        //* N E W B I E
         // ! 1-1
         // Primary
         LightRed: "hsl(0, 100%, 67%)",
@@ -187,6 +192,14 @@ export default {
         // ! 1-18
         Violet: "hsl(257, 40%, 49%)",
         SoftMagenta: "hsl(300, 69%, 71%)",
+        // * J U N I O R
+        // ! 2-1
+        // Primary
+        Tomato: "hsl(4, 100%, 67%)",
+        // Neutral
+        DarkSlateGrey: "hsl(234, 29%, 20%)",
+        CharcoalGrey: "hsl(235, 18%, 26%)",
+        Grey: "hsl(231, 7%, 60%)",
       },
     },
   },
