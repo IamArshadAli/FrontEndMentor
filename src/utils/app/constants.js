@@ -19,6 +19,9 @@ const ROUTES = {
     pingComingSoon: "ping-coming-soon",
     huddleLandingPage: "huddle-landing-page",
   },
+  junior: {
+    newsletterSignUp: "newsletter-sign-up",
+  }
 };
 
 const REPO =
@@ -26,7 +29,7 @@ const REPO =
 
 const LEVEL = {
   newbie: { name: "newbie", style: "text-DarkCyan border border-DarkCyan" },
-  junior: { name: "junior", style: "text- border border-" },
+  junior: { name: "junior", style: "text-GreenTeal border border-GreenTeal" },
   intermediate: { name: "intermediate", style: "text- border border-" },
   advanced: { name: "advanced", style: "text- border border-" },
 };
