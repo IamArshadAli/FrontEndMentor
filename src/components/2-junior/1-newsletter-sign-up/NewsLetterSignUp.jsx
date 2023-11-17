@@ -8,7 +8,7 @@ const NewsLetterSignUp = () => {
   const [currentState, setCurrentState] = useState("signup");
 
   return (
-    <main className="w-screen h-screen bg-CharcoalGrey text-DarkSlateGrey grid place-items-center font-Roboto">
+    <main className="w-screen min-h-screen bg-CharcoalGrey text-DarkSlateGrey grid place-items-center font-Roboto">
       {currentState === "success" ? (
         <SignUpSuccess email={email} setEmail={setEmail} setCurrentState={setCurrentState} />
       ) : (

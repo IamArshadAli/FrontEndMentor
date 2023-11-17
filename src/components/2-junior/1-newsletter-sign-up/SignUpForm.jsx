@@ -22,7 +22,7 @@ const SignUpForm = ({ email, setEmail, setCurrentState }) => {
     <div className="flex flex-col md:flex-row-reverse overflow-hidden md:max-w-3xl md:p-4 md:gap-6 bg-White rounded-3xl shadow-xl">
       <picture>
         <source media="(min-width: 650px)" srcSet={signUpIllustrationPc} />
-        <img src={signUpIllustrationMobile} alt="Sign Up Illustration" />
+        <img src={signUpIllustrationMobile} alt="Sign Up Illustration" className="w-full" />
       </picture>
       <section className="flex flex-col justify-center px-4 pt-6 md:text-sm">
         <h1 className="text-4xl md:text-5xl font-bold">Stay updated!</h1>
