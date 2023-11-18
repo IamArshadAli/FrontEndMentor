@@ -24,7 +24,7 @@ import {
 } from "./components/1-newbie";
 
 //* Junior components
-import { NewsLetterSignUp } from "./components/2-junior";
+import { AgeCalculatorApp, NewsLetterSignUp } from "./components/2-junior";
 
 function App() {
   return (
@@ -103,6 +103,10 @@ function App() {
           <Route
             path={ROUTES.junior.newsletterSignUp}
             element={<NewsLetterSignUp />}
+          />
+          <Route
+            path={ROUTES.junior.ageCalculatorApp}
+            element={<AgeCalculatorApp />}
           />
         </Route>
       </Routes>
