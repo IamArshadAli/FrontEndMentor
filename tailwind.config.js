@@ -28,7 +28,7 @@ export default {
         LeagueSpartan: ["League Spartan", "sans-serif"],
         // ! 1-12
         Manrope: ["Manrope", "sans-serif"],
-        // ! 1-13 | 1-15 | 1-18
+        // ! 1-13 | 1-15 | 1-18 | 2-2
         Poppins: ["Poppins", "sans-serif"],
         // ! 1-14
         JosefinSans: ["Josefin Sans", "sans-serif"],
@@ -200,6 +200,15 @@ export default {
         DarkSlateGrey: "hsl(234, 29%, 20%)",
         CharcoalGrey: "hsl(235, 18%, 26%)",
         Grey: "hsl(231, 7%, 60%)",
+        // ! 2-2
+        // Primary
+        Purple: "hsl(259, 100%, 65%)",
+        LightRed22: "hsl(0, 100%, 67%)",
+        // Neutral
+        Offwhite: "hsl(0, 0%, 94%)",
+        Lightgrey: "hsl(0, 0%, 86%)",
+        Smokeygrey: "hsl(0, 1%, 44%)",
+        Offblack: "hsl(0, 0%, 8%)",
       },
     },
   },
