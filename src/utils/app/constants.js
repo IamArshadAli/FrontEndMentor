@@ -21,6 +21,7 @@ const ROUTES = {
   },
   junior: {
     newsletterSignUp: "newsletter-sign-up",
+    ageCalculatorApp: "age-calculator-app",
   }
 };
 
