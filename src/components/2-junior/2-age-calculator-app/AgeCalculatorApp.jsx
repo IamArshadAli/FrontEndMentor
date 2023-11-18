@@ -15,7 +15,11 @@ const AgeCalculatorApp = () => {
   };
 
   const calculateAge = () => {
-    const dateOfBirth = new Date(formData.year, formData.month, formData.day);
+    const dateOfBirth = new Date(
+      formData.year,
+      formData.month - 1,
+      formData.day
+    );
     const currentDate = new Date();
 
     let years = currentDate.getFullYear() - dateOfBirth.getFullYear();
