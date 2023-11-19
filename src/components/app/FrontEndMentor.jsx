@@ -23,7 +23,7 @@ const Cards = () => {
         >
           {/* image */}
           <Link to={data.link}>
-            <img src={data.image} alt={data.name} />
+            <img src={data.image} alt={data.name} loading="lazy" />
           </Link>
           {/* name */}
           <div className="p-4 text-DarkGrayishBlue">
