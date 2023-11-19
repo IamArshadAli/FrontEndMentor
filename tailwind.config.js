@@ -14,7 +14,7 @@ export default {
         Outfit: ["Outfit", "sans-serif"],
         // ! 1-4
         Overpass: ["Overpass", "sans-serif"],
-        // ! 1-5
+        // ! 1-5 | 2-3
         Inter: ["Inter", "sans-serif"],
         // ! 1-5 | 1-8
         LexendDeca: ["LexendDeca", "sans-serif"],
@@ -209,6 +209,15 @@ export default {
         Lightgrey: "hsl(0, 0%, 86%)",
         Smokeygrey: "hsl(0, 1%, 44%)",
         Offblack: "hsl(0, 0%, 8%)",
+        // ! 2-3
+        // Primary
+        SoftOrange: "hsl(35, 77%, 62%)",
+        SoftRed23: "hsl(5, 85%, 63%)",
+        // Neutral
+        OffWhite: "hsl(36, 100%, 99%)",
+        GrayishBlue23: "hsl(233, 8%, 79%)",
+        DarkGrayishBlue23: "hsl(236, 13%, 42%)",
+        VeryDarkBlue23: "hsl(240, 100%, 5%)",
       },
     },
   },
