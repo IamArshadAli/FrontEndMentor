@@ -28,6 +28,7 @@ import {
   AgeCalculatorApp,
   NewsHomePage,
   NewsLetterSignUp,
+  NotificationsPage,
 } from "./components/2-junior";
 
 function App() {
@@ -113,6 +114,7 @@ function App() {
             element={<AgeCalculatorApp />}
           />
           <Route path={ROUTES.junior.newsHomePage} element={<NewsHomePage />} />
+          <Route path={ROUTES.junior.notificationsPage} element={<NotificationsPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
