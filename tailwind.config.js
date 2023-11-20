@@ -41,6 +41,8 @@ export default {
         // * J U N I O R
         // ! 2-1
         Roboto: ["Roboto", "sans-serif"],
+        // ! 2-4
+        PlusJakartaSans: ["Plus Jakarta Sans", "sans-serif"],
       },
       colors: {
         //* N E W B I E
@@ -218,6 +220,17 @@ export default {
         GrayishBlue23: "hsl(233, 8%, 79%)",
         DarkGrayishBlue23: "hsl(236, 13%, 42%)",
         VeryDarkBlue23: "hsl(240, 100%, 5%)",
+        // ! 2-4
+        // Primary
+        Red24: "hsl(1, 90%, 64%)",
+        Blue24: "hsl(219, 85%, 26%)",
+        // Neutral
+        VeryLightGrayishBlue: "hsl(210, 60%, 98%)",
+        LightGrayishBlue1: "hsl(211, 68%, 94%)",
+        LightGrayishBlue2: "hsl(205, 33%, 90%)",
+        GrayishBlue24: "hsl(219, 14%, 63%)",
+        DarkGrayishBlue24: "hsl(219, 12%, 42%)",
+        VeryDarkBlue24: "hsl(224, 21%, 14%)",
       },
     },
   },
