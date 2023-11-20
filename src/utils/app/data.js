@@ -21,7 +21,7 @@ import {
 } from "../../assets/images/app/1-newbie";
 
 //* JUNIOR Images
-import { N21, N22, N23 } from "../../assets/images/app/2-junior";
+import { N21, N22, N23, N24 } from "../../assets/images/app/2-junior";
 
 import { LEVEL, TAGS, ROUTES, REPO } from "./constants";
 
@@ -195,5 +195,13 @@ export const AppData = [
     level: LEVEL.junior,
     link: `${LEVEL.junior.name}/${ROUTES.junior.newsHomePage}`,
     code: `${REPO}2-${LEVEL.junior.name}/3-${ROUTES.junior.newsHomePage}`,
+  },
+  {
+    image: N24,
+    name: "Notifications Page",
+    tags: [TAGS.html, TAGS.css, TAGS.js],
+    level: LEVEL.junior,
+    link: `${LEVEL.junior.name}/${ROUTES.junior.notificationsPage}`,
+    code: `${REPO}2-${LEVEL.junior.name}/4-${ROUTES.junior.notificationsPage}`,
   },
 ];
