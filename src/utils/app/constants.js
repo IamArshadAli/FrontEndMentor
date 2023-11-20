@@ -23,6 +23,7 @@ const ROUTES = {
     newsletterSignUp: "newsletter-sign-up",
     ageCalculatorApp: "age-calculator-app",
     newsHomePage: "news-home-page",
+    notificationsPage: "notifications-page",
   }
 };
 
